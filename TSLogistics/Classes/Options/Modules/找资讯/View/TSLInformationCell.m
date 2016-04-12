@@ -54,7 +54,8 @@
 - (void)loadNewData
 {
     NSMutableDictionary *param = [NSMutableDictionary dictionaryWithDictionary:self.param];
-    param[@"page"] = [NSNull null];
+    [param removeObjectForKey:@"page"];
+//    param[@"page"] = [NSNull null];
     [TSLHttpTool GET:[NSString stringWithFormat:@"%@%@", TSLAPI_PREFIX, TSLAPI_Information] parameters:param success:^(id json) {
         NSDictionary *firstDict = [json firstObject];
         TSLInformationInfo *firstInfo = [self.infoArray firstObject];
