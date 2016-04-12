@@ -1,0 +1,54 @@
+//
+//  PrefixHeader.pch
+//  TSLogistics
+//
+//  Created by erpapa on 15/11/9.
+//  Copyright (c) 2015年 erpapa. All rights reserved.
+//
+
+#ifndef TSLogistics_PrefixHeader_pch
+#define TSLogistics_PrefixHeader_pch
+#endif
+
+#ifndef __IPHONE_7_0
+#warning "This project uses features only available in iOS SDK 7.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import "UIImage+SW.h"
+#import "NSString+size.h"
+#import "TSLAPI.h"
+#import "TSLTool.h"
+// 用于编译通过AFN
+#ifndef TARGET_OS_IOS
+#define TARGET_OS_IOS TARGET_OS_IPHONE
+#endif
+#ifndef TARGET_OS_WATCH
+#define TARGET_OS_WATCH 0
+#endif
+
+// 1.判断是否为iOS7
+#define iOS7 ([[UIDevice currentDevice].systemVersion doubleValue] >= 7.0)
+// 2.获得RGB颜色
+#define TSLColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+// 3.自定义Log
+#ifdef DEBUG
+#define TSLog(...) NSLog(__VA_ARGS__)
+#else
+#define TSLog(...)
+#endif
+// 4.屏幕宽度高度
+#define ScreenW [UIScreen mainScreen].bounds.size.width
+#define ScreenH [UIScreen mainScreen].bounds.size.height
+// 5.常用的对象
+#define TSLNotificationCenter [NSNotificationCenter defaultCenter]
+// 6.背景色
+#define TSLBackgroundColor TSLColor(233, 233, 233)
+// 7.热点关注缓存路径
+#define TSLRecommendPath [[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:@"Recommend.data"]
+// 8.储存用户信息路径
+#define TSLUserInfoPath [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:@"UserInfo.data"]
+
+#endif
+
