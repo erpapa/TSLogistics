@@ -123,11 +123,8 @@
 		EA68B73B1C171B0C0091D02C /* molImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA68B73A1C171B0C0091D02C /* molImage@2x.png */; };
 		EA68B73D1C171B2C0091D02C /* adrIamge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA68B73C1C171B2C0091D02C /* adrIamge@2x.png */; };
 		EA68B73F1C1727F90091D02C /* phone2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA68B73E1C1727F90091D02C /* phone2@2x.png */; };
-		EA6B61501C0986D800BA2757 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6B614F1C0986D800BA2757 /* libz.dylib */; };
 		EA6B61521C099C1800BA2757 /* locate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA6B61511C099C1800BA2757 /* locate@2x.png */; };
 		EA6B61571C09CD4100BA2757 /* TSLMapInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EA6B61561C09CD4100BA2757 /* TSLMapInfo.m */; };
-		EA6B615B1C09DA6D00BA2757 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6B615A1C09DA6D00BA2757 /* libsqlite3.0.dylib */; };
-		EA6B615D1C09DA7C00BA2757 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6B615C1C09DA7C00BA2757 /* libstdc++.6.0.9.dylib */; };
 		EA6B61631C09DBB000BA2757 /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6B615F1C09DBB000BA2757 /* BaiduMapAPI_Base.framework */; };
 		EA6B61641C09DBB000BA2757 /* BaiduMapAPI_Location.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6B61601C09DBB000BA2757 /* BaiduMapAPI_Location.framework */; };
 		EA6B61651C09DBB000BA2757 /* BaiduMapAPI_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6B61611C09DBB000BA2757 /* BaiduMapAPI_Map.framework */; };
@@ -141,9 +138,6 @@
 		EAAD938C1C034C0A009E12D3 /* TSLWarehouseParam.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAD938B1C034C0A009E12D3 /* TSLWarehouseParam.m */; };
 		EAAD938E1C0374A6009E12D3 /* beizhuImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAAD938D1C0374A6009E12D3 /* beizhuImage@2x.png */; };
 		EACB7E381C0812D400E832C3 /* TSLTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = EACB7E371C0812D400E832C3 /* TSLTopView.m */; };
-		EACB7EBC1C085E2900E832C3 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EACB7EBB1C085E2900E832C3 /* libicucore.dylib */; };
-		EACB7EBE1C085E3500E832C3 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EACB7EBD1C085E3500E832C3 /* libz.1.2.5.dylib */; };
-		EACB7EC01C085E4700E832C3 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EACB7EBF1C085E4700E832C3 /* libstdc++.dylib */; };
 		EAD90D511BF074BC005DD3A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD90D4F1BF074BC005DD3A3 /* Main.storyboard */; };
 		EAD90D531BF074BC005DD3A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAD90D521BF074BC005DD3A3 /* Images.xcassets */; };
 		EAD90D621BF074BC005DD3A3 /* TSLogisticsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD90D611BF074BC005DD3A3 /* TSLogisticsTests.m */; };
@@ -300,7 +294,6 @@
 		EAD910A01BF09A17005DD3A3 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD910541BF09A17005DD3A3 /* UIImageView+HighlightedWebCache.m */; };
 		EAD910A11BF09A17005DD3A3 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD910561BF09A17005DD3A3 /* UIImageView+WebCache.m */; };
 		EAD910A21BF09A17005DD3A3 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD910581BF09A17005DD3A3 /* UIView+WebCacheOperation.m */; };
-		EAD910A81BF09A47005DD3A3 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD910A71BF09A47005DD3A3 /* libsqlite3.dylib */; };
 		EAD910AC1BF0ACE2005DD3A3 /* buttonBlack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAD910AA1BF0ACE2005DD3A3 /* buttonBlack@2x.png */; };
 		EAD910AD1BF0ACE2005DD3A3 /* buttonWhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAD910AB1BF0ACE2005DD3A3 /* buttonWhite@2x.png */; };
 		EAD910BC1BF0AF18005DD3A3 /* TSLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD910B91BF0AF18005DD3A3 /* TSLNavigationController.m */; };
@@ -323,7 +316,6 @@
 		EAD9F1FE1BF48B1E00B84A29 /* TSLHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD9F1FD1BF48B1E00B84A29 /* TSLHttpTool.m */; };
 		EAD9F2011BF48BAB00B84A29 /* TSLFormData.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD9F2001BF48BAB00B84A29 /* TSLFormData.m */; };
 		EAD9F2151BF4C0EF00B84A29 /* ONOXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD9F2141BF4C0EF00B84A29 /* ONOXMLDocument.m */; };
-		EAD9F2171BF4C17F00B84A29 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EAD9F2161BF4C17F00B84A29 /* libxml2.dylib */; };
 		EADA35D81BF5971000816CC1 /* cb_glossy_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EADA35D41BF5971000816CC1 /* cb_glossy_off@2x.png */; };
 		EADA35D91BF5971000816CC1 /* cb_glossy_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EADA35D51BF5971000816CC1 /* cb_glossy_on@2x.png */; };
 		EADA35DA1BF5971000816CC1 /* cb_glossy_off.png in Resources */ = {isa = PBXBuildFile; fileRef = EADA35D61BF5971000816CC1 /* cb_glossy_off.png */; };
@@ -383,6 +375,14 @@
 		EAFB1DAD1C205F2000602F65 /* TSLParkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFB1DAC1C205F2000602F65 /* TSLParkVC.m */; };
 		EAFB1DB01C205F3D00602F65 /* TSLParkCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFB1DAF1C205F3D00602F65 /* TSLParkCell.m */; };
 		EAFB1DB31C205F5600602F65 /* TSLParkInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFB1DB21C205F5600602F65 /* TSLParkInfo.m */; };
+		EAFB6EF01CBCC4E3003800D7 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFB6EEF1CBCC4E3003800D7 /* libstdc++.6.0.9.tbd */; };
+		EAFB6EF21CBCC4F0003800D7 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFB6EF11CBCC4F0003800D7 /* libsqlite3.0.tbd */; };
+		EAFB6EF41CBCC4FB003800D7 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFB6EF31CBCC4FB003800D7 /* libz.tbd */; };
+		EAFB6EF61CBCC50E003800D7 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFB6EF51CBCC50E003800D7 /* libstdc++.tbd */; };
+		EAFB6EF81CBCC51B003800D7 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFB6EF71CBCC51B003800D7 /* libz.1.2.5.tbd */; };
+		EAFB6EFA1CBCC52A003800D7 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFB6EF91CBCC52A003800D7 /* libicucore.tbd */; };
+		EAFB6EFC1CBCC535003800D7 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFB6EFB1CBCC535003800D7 /* libxml2.tbd */; };
+		EAFB6EFE1CBCC541003800D7 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EAFB6EFD1CBCC541003800D7 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -576,12 +576,9 @@
 		EA68B73A1C171B0C0091D02C /* molImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "molImage@2x.png"; sourceTree = "<group>"; };
 		EA68B73C1C171B2C0091D02C /* adrIamge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "adrIamge@2x.png"; sourceTree = "<group>"; };
 		EA68B73E1C1727F90091D02C /* phone2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone2@2x.png"; sourceTree = "<group>"; };
-		EA6B614F1C0986D800BA2757 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		EA6B61511C099C1800BA2757 /* locate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "locate@2x.png"; sourceTree = "<group>"; };
 		EA6B61551C09CD4100BA2757 /* TSLMapInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSLMapInfo.h; sourceTree = "<group>"; };
 		EA6B61561C09CD4100BA2757 /* TSLMapInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSLMapInfo.m; sourceTree = "<group>"; };
-		EA6B615A1C09DA6D00BA2757 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
-		EA6B615C1C09DA7C00BA2757 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
 		EA6B615F1C09DBB000BA2757 /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
 		EA6B61601C09DBB000BA2757 /* BaiduMapAPI_Location.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Location.framework; sourceTree = "<group>"; };
 		EA6B61611C09DBB000BA2757 /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
@@ -598,9 +595,6 @@
 		EAAD938D1C0374A6009E12D3 /* beizhuImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "beizhuImage@2x.png"; sourceTree = "<group>"; };
 		EACB7E361C0812D400E832C3 /* TSLTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSLTopView.h; sourceTree = "<group>"; };
 		EACB7E371C0812D400E832C3 /* TSLTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSLTopView.m; sourceTree = "<group>"; };
-		EACB7EBB1C085E2900E832C3 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
-		EACB7EBD1C085E3500E832C3 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
-		EACB7EBF1C085E4700E832C3 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
 		EAD90D421BF074BC005DD3A3 /* TSLogistics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSLogistics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD90D461BF074BC005DD3A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAD90D501BF074BC005DD3A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -838,7 +832,6 @@
 		EAD910561BF09A17005DD3A3 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		EAD910571BF09A17005DD3A3 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		EAD910581BF09A17005DD3A3 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
-		EAD910A71BF09A47005DD3A3 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		EAD910A91BF09BBB005DD3A3 /* TSLAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSLAPI.h; sourceTree = "<group>"; };
 		EAD910AA1BF0ACE2005DD3A3 /* buttonBlack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonBlack@2x.png"; sourceTree = "<group>"; };
 		EAD910AB1BF0ACE2005DD3A3 /* buttonWhite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonWhite@2x.png"; sourceTree = "<group>"; };
@@ -870,7 +863,6 @@
 		EAD9F2121BF4C0EF00B84A29 /* Ono.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ono.h; sourceTree = "<group>"; };
 		EAD9F2131BF4C0EF00B84A29 /* ONOXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ONOXMLDocument.h; sourceTree = "<group>"; };
 		EAD9F2141BF4C0EF00B84A29 /* ONOXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ONOXMLDocument.m; sourceTree = "<group>"; };
-		EAD9F2161BF4C17F00B84A29 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		EADA35D41BF5971000816CC1 /* cb_glossy_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_glossy_off@2x.png"; sourceTree = "<group>"; };
 		EADA35D51BF5971000816CC1 /* cb_glossy_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cb_glossy_on@2x.png"; sourceTree = "<group>"; };
 		EADA35D61BF5971000816CC1 /* cb_glossy_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cb_glossy_off.png; sourceTree = "<group>"; };
@@ -970,6 +962,14 @@
 		EAFB1DAF1C205F3D00602F65 /* TSLParkCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSLParkCell.m; sourceTree = "<group>"; };
 		EAFB1DB11C205F5600602F65 /* TSLParkInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSLParkInfo.h; sourceTree = "<group>"; };
 		EAFB1DB21C205F5600602F65 /* TSLParkInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSLParkInfo.m; sourceTree = "<group>"; };
+		EAFB6EEF1CBCC4E3003800D7 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		EAFB6EF11CBCC4F0003800D7 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		EAFB6EF31CBCC4FB003800D7 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		EAFB6EF51CBCC50E003800D7 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		EAFB6EF71CBCC51B003800D7 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		EAFB6EF91CBCC52A003800D7 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		EAFB6EFB1CBCC535003800D7 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		EAFB6EFD1CBCC541003800D7 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -977,10 +977,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA6B615D1C09DA7C00BA2757 /* libstdc++.6.0.9.dylib in Frameworks */,
-				EA6B615B1C09DA6D00BA2757 /* libsqlite3.0.dylib in Frameworks */,
+				EAFB6EFE1CBCC541003800D7 /* libsqlite3.tbd in Frameworks */,
+				EAFB6EFC1CBCC535003800D7 /* libxml2.tbd in Frameworks */,
+				EAFB6EFA1CBCC52A003800D7 /* libicucore.tbd in Frameworks */,
+				EAFB6EF81CBCC51B003800D7 /* libz.1.2.5.tbd in Frameworks */,
+				EAFB6EF61CBCC50E003800D7 /* libstdc++.tbd in Frameworks */,
+				EAFB6EF41CBCC4FB003800D7 /* libz.tbd in Frameworks */,
+				EAFB6EF21CBCC4F0003800D7 /* libsqlite3.0.tbd in Frameworks */,
+				EAFB6EF01CBCC4E3003800D7 /* libstdc++.6.0.9.tbd in Frameworks */,
 				EA6B61631C09DBB000BA2757 /* BaiduMapAPI_Base.framework in Frameworks */,
-				EA6B61501C0986D800BA2757 /* libz.dylib in Frameworks */,
 				EA4D8A021C08804800952CBA /* MOBFoundation.framework in Frameworks */,
 				EA4D8A041C08804800952CBA /* ShareSDKCoreService.framework in Frameworks */,
 				EA4D8A091C08804800952CBA /* libWeChatSDK.a in Frameworks */,
@@ -991,19 +996,14 @@
 				EA4D89FF1C08804800952CBA /* WeChatConnection.framework in Frameworks */,
 				EA4D8A0A1C08804800952CBA /* ShareSDK.framework in Frameworks */,
 				EA4D89FC1C08804800952CBA /* QQConnection.framework in Frameworks */,
-				EACB7EC01C085E4700E832C3 /* libstdc++.dylib in Frameworks */,
 				EA4D8A051C08804800952CBA /* TencentOpenAPI.framework in Frameworks */,
 				EA4D89FD1C08804800952CBA /* QZoneConnection.framework in Frameworks */,
-				EACB7EBE1C085E3500E832C3 /* libz.1.2.5.dylib in Frameworks */,
 				EA4D8A0D1C08804800952CBA /* ShareSDKShareActionSheet.framework in Frameworks */,
 				EA4D89FE1C08804800952CBA /* SinaWeiboConnection.framework in Frameworks */,
-				EACB7EBC1C085E2900E832C3 /* libicucore.dylib in Frameworks */,
 				EA4D8A071C08804800952CBA /* libWeiboSDK.a in Frameworks */,
-				EA4D8A001C08804800952CBA /* AGCommon.framework in Frameworks */,
 				EAE260551BFA0FD40013B709 /* libmp3lame.a in Frameworks */,
-				EAD9F2171BF4C17F00B84A29 /* libxml2.dylib in Frameworks */,
+				EA4D8A001C08804800952CBA /* AGCommon.framework in Frameworks */,
 				EA6B61661C09DBB000BA2757 /* BaiduMapAPI_Utils.framework in Frameworks */,
-				EAD910A81BF09A47005DD3A3 /* libsqlite3.dylib in Frameworks */,
 				EAAC5CD11C0C886900BF8E5F /* BaiduMapAPI_Search.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1594,14 +1594,14 @@
 		EAD90D721BF076B8005DD3A3 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				EA6B615C1C09DA7C00BA2757 /* libstdc++.6.0.9.dylib */,
-				EA6B615A1C09DA6D00BA2757 /* libsqlite3.0.dylib */,
-				EA6B614F1C0986D800BA2757 /* libz.dylib */,
-				EACB7EBF1C085E4700E832C3 /* libstdc++.dylib */,
-				EACB7EBD1C085E3500E832C3 /* libz.1.2.5.dylib */,
-				EACB7EBB1C085E2900E832C3 /* libicucore.dylib */,
-				EAD9F2161BF4C17F00B84A29 /* libxml2.dylib */,
-				EAD910A71BF09A47005DD3A3 /* libsqlite3.dylib */,
+				EAFB6EFD1CBCC541003800D7 /* libsqlite3.tbd */,
+				EAFB6EFB1CBCC535003800D7 /* libxml2.tbd */,
+				EAFB6EF91CBCC52A003800D7 /* libicucore.tbd */,
+				EAFB6EF71CBCC51B003800D7 /* libz.1.2.5.tbd */,
+				EAFB6EF51CBCC50E003800D7 /* libstdc++.tbd */,
+				EAFB6EF31CBCC4FB003800D7 /* libz.tbd */,
+				EAFB6EF11CBCC4F0003800D7 /* libsqlite3.0.tbd */,
+				EAFB6EEF1CBCC4E3003800D7 /* libstdc++.6.0.9.tbd */,
 				EAE2604F1BFA0FD40013B709 /* WavToMp3 */,
 				EA190A691BF6FAFC00A34567 /* MBProgressHUD */,
 				EAD90FC41BF09A17005DD3A3 /* AFNetworking */,
@@ -2839,7 +2839,7 @@
 		EAD90D3A1BF074BC005DD3A3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = erpapa;
 				TargetAttributes = {
 					EAD90D411BF074BC005DD3A3 = {
@@ -3309,6 +3309,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -3402,6 +3403,7 @@
 					"$(PROJECT_DIR)/TSLogistics/Classes/API/UMCheckUpdate",
 				);
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.erpapa.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -3439,6 +3441,7 @@
 					"$(PROJECT_DIR)/TSLogistics/Classes/API/UMCheckUpdate",
 				);
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.erpapa.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -3457,6 +3460,7 @@
 				);
 				INFOPLIST_FILE = TSLogisticsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.erpapa.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSLogistics.app/TSLogistics";
 			};
@@ -3472,6 +3476,7 @@
 				);
 				INFOPLIST_FILE = TSLogisticsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.erpapa.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSLogistics.app/TSLogistics";
 			};
